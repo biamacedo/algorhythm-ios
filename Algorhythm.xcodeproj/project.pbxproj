@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CEF508D41B77101C006A5314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF508D31B77101C006A5314 /* AppDelegate.swift */; };
-		CEF508D61B77101C006A5314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF508D51B77101C006A5314 /* ViewController.swift */; };
+		CEF508D61B77101C006A5314 /* PlaylistMasterVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF508D51B77101C006A5314 /* PlaylistMasterVIewController.swift */; };
 		CEF508D91B77101C006A5314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF508D71B77101C006A5314 /* Main.storyboard */; };
 		CEF508DB1B77101C006A5314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF508DA1B77101C006A5314 /* Images.xcassets */; };
 		CEF508DE1B77101C006A5314 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF508DC1B77101C006A5314 /* LaunchScreen.xib */; };
 		CEF508EA1B77101C006A5314 /* AlgorhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF508E91B77101C006A5314 /* AlgorhythmTests.swift */; };
+		CEF508F61B771433006A5314 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF508F51B771433006A5314 /* PlaylistDetailViewController.swift */; };
+		CEF508F81B77D13D006A5314 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF508F71B77D13D006A5314 /* MusicLibrary.swift */; };
+		CEF508FA1B77D208006A5314 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF508F91B77D208006A5314 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		CEF508CE1B77101C006A5314 /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF508D21B77101C006A5314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF508D31B77101C006A5314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEF508D51B77101C006A5314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF508D51B77101C006A5314 /* PlaylistMasterVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterVIewController.swift; sourceTree = "<group>"; };
 		CEF508D81B77101C006A5314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEF508DA1B77101C006A5314 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEF508DD1B77101C006A5314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CEF508E31B77101C006A5314 /* AlgorhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF508E81B77101C006A5314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF508E91B77101C006A5314 /* AlgorhythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorhythmTests.swift; sourceTree = "<group>"; };
+		CEF508F51B771433006A5314 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		CEF508F71B77D13D006A5314 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		CEF508F91B77D208006A5314 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				CEF508D31B77101C006A5314 /* AppDelegate.swift */,
-				CEF508D51B77101C006A5314 /* ViewController.swift */,
+				CEF508D51B77101C006A5314 /* PlaylistMasterVIewController.swift */,
+				CEF508F51B771433006A5314 /* PlaylistDetailViewController.swift */,
 				CEF508D71B77101C006A5314 /* Main.storyboard */,
+				CEF508F71B77D13D006A5314 /* MusicLibrary.swift */,
+				CEF508F91B77D208006A5314 /* Playlist.swift */,
 				CEF508DA1B77101C006A5314 /* Images.xcassets */,
 				CEF508DC1B77101C006A5314 /* LaunchScreen.xib */,
 				CEF508D11B77101C006A5314 /* Supporting Files */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF508D61B77101C006A5314 /* ViewController.swift in Sources */,
+				CEF508F61B771433006A5314 /* PlaylistDetailViewController.swift in Sources */,
+				CEF508D61B77101C006A5314 /* PlaylistMasterVIewController.swift in Sources */,
 				CEF508D41B77101C006A5314 /* AppDelegate.swift in Sources */,
+				CEF508F81B77D13D006A5314 /* MusicLibrary.swift in Sources */,
+				CEF508FA1B77D208006A5314 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
